@@ -29,7 +29,7 @@ class Site:
             if path.is_dir():
                 self.create_dir(path)
             elif path.is_file():
-                self.run_parser(path)from pathlib import Path
+                self.run_parser(path)
 
 class Site:
     def __init__(self, source, dest):
